@@ -1,0 +1,16 @@
+package view;
+
+import controller.grafoMatrizController;
+
+public class grafoMatriz{
+	public static void main(String[] args){
+		try{
+			grafoMatrizController obj = new grafoMatrizController();
+			System.out.println(obj.test());
+		} catch(Exception e){
+			e.printStackTrace();
+		} finally{
+			System.out.println("\nFim do programa.\n");
+		}
+	}
+}
